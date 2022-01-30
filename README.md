@@ -1,16 +1,16 @@
-# W2HW - My Portfolio
+# W8HW - Update Portfolio
 
-https://fubzee.github.io/W2HW-MyPortfolio/
+https://fubzee.github.io/W8HW-MyPortfolio/
 
-9th December 2021
+30/01/2022
 
 **The Assignment:** 
 
-The personal portfolio page was built so as to resemble a dark and dramatic foreground with content revealed as "cut-outs" providing some information about my career, web development examples (projects) done to date and providing some contact information.  
+The personal portfolio page was built so as to resemble a dark and dramatic foreground with content revealed as "cut-outs" providing some information about my career, web development examples (projects) done to date and providing some contact information.  The design has remained after positive feedback and the portfolio has been updated to include additional project work
 
-![image](https://user-images.githubusercontent.com/94102473/148665995-fa22118b-bbb1-4784-9d01-d90030900df5.png)
+>>>  get updated image
 
-To ensure consist application of the two primary monochromatic colours chosen these were declared as variables and reused when application was required.  The site will present a small photo of myself and my name, with three options to 'jump to"to :
+I've retained the application of the two primary monochromatic colours chosen these were declared as variables and reused when application was required.  The site will present a avater (meant to be a rough representation of me) my name, with three options to 'jump to"to :
 
 - Summary of my career
 - Sample Work
@@ -20,6 +20,6 @@ When you hover on the link a small frame will appear highlighting the option for
 
 I included the git links to redirect a visitor to the pages/sites that reflect some of my earlier attempts at web development, you can navigate to these by clicking on the image.  The image will pop out as a photo when you hover over it.  
 
-Resolved previous display issues in terms of responsivenenss and presentation on the page.
+Resolved previous display issues in terms of responsivenenss and presentation on the page an the links are working.
 
 Thank-you!
