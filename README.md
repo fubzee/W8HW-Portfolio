@@ -8,7 +8,7 @@ https://fubzee.github.io/W8HW-MyPortfolio/
 
 The personal portfolio page was built so as to resemble a dark and dramatic foreground with content revealed as "cut-outs" providing some information about my career, web development examples (projects) done to date and providing some contact information.  The design has remained after positive feedback and the portfolio has been updated to include additional project work
 
->>>  get updated image
+![image](https://user-images.githubusercontent.com/94102473/151694337-5dab44f6-9f25-4cb3-a435-94ac05f6e698.png)
 
 I've retained the application of the two primary monochromatic colours chosen these were declared as variables and reused when application was required.  The site will present a avater (meant to be a rough representation of me) my name, with three options to 'jump to"to :
 
