@@ -20,285 +20,99 @@
     box-sizing: border-box;
 }
 
-header{
-  display: flex;
-  flex-direction: row; 
-  justify-content: space-between;
-  align-items: flex-start;
+body{
+  background: var(--all-primary-backgound);
+
 }
 
-a{
-  justify-content: center;
-  background-color: var(--all-primary-background);
-  font-family: var(--all-font);
-  font-size: 0.75em;
+h1, h2{
+  color:#FF00FF; 
 }
-/*This is a container for the graphic and page navigation*/
-
-.Container1{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: space-between;
-  justify-content: space-evenly;
-  gap: 10px 20px; 
-  justify-content: flex-start;
-  flex: 0 1 auto;
+h2{
+  text-align: center;
 }
 
-.Container2{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-evenly;
-  gap: 10px 20px; 
-  justify-content: flex-start;
-  border-radius: var(--all-border-radius-oblong);
-  flex: 0 1 auto;
-}
-.Navi{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: space-evenly;
-  gap: 10px 20px; 
-  flex: 0 1 auto;  
-  align-self: auto;
+mark{
+  background:rgba(253, 208, 4, 0.897);
+  color:black;
 }
 
-/* The nav-box styles the three areas that contain the links to items on the page */ 
-.nav-box{
-  display: inline-block;
-  flex: 0 1 auto;
+.BannerBox{
+position:relative;
+justify-content: space-around;
+}
+
+.jumbotron{
+
+    height: 100vh;
+    background : var(--all-primary-backgound);
+}
+
+#catimg{
+
+  mix-blend-mode: exclusion ;
   align-self: center;
-  border-radius: var(--all-border-radius-round); 
-  border: var(--all-box-border);
-  border-style: var(--all-box-border-style);
-  background-color: var(--all-primary-background);
-  border-color: black;
+  z-index: 1;
+
+}
+
+button{
+
+  color:#FF00FF; 
+  display: inline-block;
+  
+}
+#headimg{
+
+  border-radius: var(--all-border-radius-oblong);
+  mix-blend-mode: luminosity;
+  position: sticky; 
+  
+  height:100px;
+  width:100px;
 }
 
 .nav-box:hover{
   transition: border-color 2s linear;
   border-color: var(--nav-border-color);
 }
-
-#headimg{
-  border-radius: var(--all-border-radius-oblong);
-  mix-blend-mode: luminosity;
-  position: sticky;
-  height:100px;
-  width:100px;
+.bi{
+  color: #FF00FF;
 }
+#img2::after{
 
-
-
-#catimg{
-  margin: auto;
-  height:800px;
-  width:auto;
-  mix-blend-mode: exclusion ;
+  transition: var(--nav-border-color) 2s linear;
+  border: 10px solid #FF00FF; 
+  box-shadow: 10px 10px 5px #FF00FF; 
 }
-
-/* The main-area covers the main section or body of the page and contains two areas; Main Box and Container 3. */ 
-/* The Main Box captures my career as articles and is made predominantly of text content */
-
-.Main-Area{
-  --all-primary-backgound: #000;
-  --all-primary-font: #fff;
+.resume{
+  align-self: flex-end;
 }
-.Main-Box{
-  margin:auto;
-  max-width:95%;
-  text-align: center;
-  font-family: var(--all-font);
-  justify-content: center;
-  text-align: justify;
-  background-color: var(--all-box-background);
-  color: var(--all-primary-font);
-  border-radius: var(--all-border-radius-oblong); 
-  border-style: var(--all-box-border-style);
-}
-
-article{
-  max-width: 85%;
-  background-color: var(--all-box-background);
-  margin-left: 5%;
-}
-/* Container 3 captures images and links to external bodies of work */
-
-.Container3{
-    margin:auto;
-    max-width:95%; 
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-    align-content: space-around;
-    gap: 10px 20px; /* row-gap column gap */
-    row-gap: 10px;
-    column-gap: 50px;
-    background-color: var(--all-box-background);
-    border-radius: var(--all-border-radius-oblong);
-  }
-   
-h1
-{
-  font-family: var(--all-font);  
-  font-size: 1.2em;
-  text-align: left;
-  margin-left: 20px;
-  background-color: var(--all-primary-background);
-  color: var(--all-primary-font);
-}
-
-h2{
-  margin: 0%;
-  font: small-caption;
-  text-align: center;
-  font-family: var(--all-font);
-  justify-content: center;
-  background-color: var(--all-box-background);
-  color: var(--all-box-font);
-}
-
-h3{
-  margin: 0%;
-  background-color: var(--all-box-background);
-  color: var(--all-box-font);
-  font-family: var(--all-font);
-  font: small-caption;
-  font-weight: bold;
-  text-align: center;
-}
-
-nav ol{
-  display:inline-flex;
-  background-color: var(--all-primary-background);
-  color: var(--all-primary-font);
-  list-style-type: decimal;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
-}
-
-ul{
-  background-color: var(--all-box-background);
-  color: var(--all-box-font);
-}
-ul ol{
-  display: block;
-  background-color: var(--all-box-background);
-  color: var(--all-box-font);
-  justify-content: left;
-  font-size: 0.75em;
-}
-
-p{
-  margin-left: 35px;
-  font-family: var(--all-font);
-  text-align: left;
-  justify-content: center;
-  background-color: var(--all-box-background);
-  color: var(--all-box-font);
-  font-size: 0.75em;
-  border-color: var( --all-box-background);
-}
-
-b{
-  margin-left: 35px;
-  font-family: var(--all-font);
-  text-align: left;
-  justify-content: center;
-  background-color: var(--all-box-background);
-  color: var(--all-box-font);
-  font-size: 0.75em;
-  border-color: var( --all-box-background);
-}
-
-li{
-  margin-left: 35px;
-  font-family: var(--all-font);
-  text-align: left;
-  justify-content: center;
-  background-color: var(--all-box-background);
-  color: var(--all-box-font);
-  font-size: 0.75em;
-  border-color: var( --all-box-background);
-}
-
-#img2{
-  position:relative;
-  margin: 0%;
-  text-align: center;
-  background-color: var(--all-box-background);
-}
-
-#Aboutme{
-  background: var(--all-primary-backgound);
-  color: var(--all-primary-font);
-  /*background-color: var(--all-box-background);
-  color: var(--all-box-font);*/
-  font-size: 20px;
-  font: small-caption;
-  /*text-align: center;*/
-  border-radius: var(--all-border-radius-oblong);
-}
-
-.card{
-  max-width: 80%;
-  margin-top: 3%;
-  display: flex;
-  flex-direction: row;  
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items:center;
-  flex: 0 1 auto;
-  align-self:center;
-  background: var(--all-primary-backgound);
-  color: var(--all-primary-font);
-  font-size: 20px;
-  font: small-caption;
-}
-
-#WorkExamples{
-  background: var(--all-primary-backgound);
-  color: var(--all-primary-font);
-  /*background-color: var(--all-box-background);
-  color: var(--all-box-font);*/
-  font-size: 20px;
-  font: small-caption;
-  /*text-align: center;*/
-  border-radius: var(--all-border-radius-oblong);
-  align-items:flex-start;
-}
-
-.workex{
   
-  margin-top: 3%;
-  display: flex;
-  flex-direction: column;  
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  
-  flex: 0 1 auto;
-  align-self:center;
-  background-color: var(--all-box-background);
-  color: var(--all-primary-font);
-  font-size: 20px;
-  font: small-caption;
+ a{
+  align-content: center;
+  background-color: var(--all-primary-background);
+  color:#FF00FF; 
+  font-family: var(--all-font);
+  font-size: 0.75em;
+} 
 
+footer{  
+
+  justify-content: center;
+  padding: 2%;
+  background: var(--all-primary-backgound);
+  color: var(--all-primary-font);
 }
-mark{
-  background:yellow;
-  color:black;
+
+footer p {
+
+  color: var(--all-primary-font);
+  background-color:var(--all-primary-backgound);
+  text-align: center;
 }
+
+
 #ContactDetails{
   background: var(--all-primary-backgound);
   color: var(--all-primary-font);
@@ -333,7 +147,7 @@ mark{
 
 .card a :hover{
 
-  transition: border-color 2s linear;
+  transition: var-border-color 2s linear;
   border: 10px solid #fff;
   box-shadow: 10px 10px 5px #ccc;
   
@@ -346,19 +160,3 @@ mark{
   font-family: var(--all-font);
 }
 
-footer{  
-
-  justify-content: center;
-  padding: 2%;
-  background: var(--all-primary-backgound);
-  color: var(--all-primary-font);
-}
-
-footer p {
-
-  color: var(--all-primary-font);
-  background-color:var(--all-primary-backgound);
-  text-align: center;
-  
-
-}
