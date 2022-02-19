@@ -63,7 +63,7 @@ a
 {
   justify-content: center;
   background-color: var(--all-primary-background);
-  color: black;
+  color: black
   font-family: var(--all-font);
   font-size: 0.75em;
 }
@@ -91,8 +91,8 @@ footer{
   position: fixed;
 }
 
-footer p {
+footer a {
     
-  color: var(--all-primary-font);
+  color: white;
   text-align: center;
 }
