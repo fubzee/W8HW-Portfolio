@@ -8,7 +8,7 @@ https://github.com/fubzee/W8HW-Portfolio
 
 **The Assignment:** 
 
-The personal portfolio page has been updated and while I have retained the dark and dramatic foreground there are extra buttons that will take you to some additional information which is a resume calling out the key areas of the different roles I have assumed during my career.  The links will take you to some information on the page about me and to my web development work while the buttons each foc on my resume.  Attahced is my full CV which can be accessed from the main page as well as any of the other other pages.  
+The personal portfolio page has been updated and while I have retained the dark and dramatic foreground there are extra buttons that will take you to some additional information which is a resume calling out the key areas of the different roles I have assumed during my career.  The links will take you to some information on the page about me and to my web development work while the buttons each focus on my resume.  Attahced is my full CV which can be accessed from the main page as well as any of the other other pages.  
 
 ![image](https://user-images.githubusercontent.com/94102473/151694337-5dab44f6-9f25-4cb3-a435-94ac05f6e698.png)
 
